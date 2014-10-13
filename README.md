@@ -3,6 +3,12 @@ javascript-module-flavors
 
 Taste the javascript modules rainbow.
 
+* [Why modules](#why-modules)
+* [Module formats](#module-formats)
+ * [Revealing module pattern](#revealing-module-pattern)
+ * [Asynchronous module definition](#asynchronous-module-definition)
+ * [CommonJS modules](#commonjs-modules)
+ * [ES6 modules](#es6-modules)
 
 ## Why modules
 If you are already sold on the idea of modules, please |skip ahead|.
