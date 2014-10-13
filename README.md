@@ -7,16 +7,16 @@ Taste the javascript modules rainbow.
 ## Why modules
 If you are already sold on the idea of modules, please |skip ahead|.
 
-* Separation of Concerns
+1. Separation of Concerns
   * Modules perform logically discrete functions. Modules typically follow the single responsibility principal and only expose a functionally similar interface.
 
-* Explicit Dependencies
+2. Explicit Dependencies
   * A module system should allow for explicit dependency declaration. Implicit dependencies are hard to maintain and should be avoided.
 
-* Maintainability
+3. Maintainability
   * Each module works independently from another module. Keeping functionality contained allows a developer to reason about the program one piece at a time, making updates much simpler. 
 
-* Portability
+4. Portability
   * Keeping functionality contained and listing dependencies explicitly allows modules to be reused from project to project seamlessly.
 
 Of course, you can probably think of many more reasons for why modules are useful. The four listed above are pretty general and apply to most programming languages. Considering javascript in the browser, another important use of modules is global management. Now that you're sold on the advantages of using module, lets proceed.
@@ -130,7 +130,7 @@ _CC.modules.hide.all('button');
   * Portability is difficult due to implicit dependencies
   * Must do dependency management by hand in an external place
 
-### AMD
+### Asynchronous module definition
 AMD from Wikipedia:
 > Asynchronous module definition (AMD) is a JavaScript API for defining modules such that the module and its dependencies can be asynchronously loaded. It is useful in improving the performance of websites by bypassing synchronous loading of modules along with the rest of the site content. <br />
 In addition to loading multiple JavaScript files at runtime, AMD can be used during development to keep JavaScript files encapsulated in many different files. This is similar to other programming languages, like Java, which support keywords such as import, package, and class for this purpose. It is then possible to concatenate and minify all the source JavaScript into one small file used for production deployment.
@@ -207,3 +207,7 @@ require(['month'], function (month) {
   * Too much boilerplate code for every single module
   * Doesn't provide a convenient way to download required dependencies.
 
+
+### CommonJS modules
+
+### ES6 modules
