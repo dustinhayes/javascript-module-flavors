@@ -11,7 +11,7 @@ Taste the javascript modules rainbow.
  * [ES6 modules](#es6-modules)
 
 ## Why modules
-If you are already sold on the idea of modules, please |skip ahead|.
+If you are already sold on the idea of modules, please [skip ahead](#module-formats).
 
 1. Separation of Concerns
   * Modules perform logically discrete functions. Modules typically follow the single responsibility principal and only expose a functionally similar interface.
