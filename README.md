@@ -427,14 +427,14 @@ Now change the scripts start property to the following:
 Now we can change the file and it will build automatically. Nice.
 
 * Pros
-** Explicit dependency declaration
-** Hands free dependency management
-** Portability, due to package management
-** Access to all of npm (huge win)
+  * Explicit dependency declaration
+  * Hands free dependency management
+  * Portability, due to package management
+  * Access to all of npm (huge win)
 
 * Cons
-** Have to build in development (but you just saw how easy that can be)
-** Can be tough to convert an existing project
+  * Have to build in development (but you just saw how easy that can be)
+  * Can be tough to convert an existing project
 
 #### Additional Resources
 * http://dailyjs.com/2010/10/18/modules/
