@@ -180,7 +180,7 @@ define(function () {
 });
 
 // requireIt.js
-require(['myUniqueModuleName'], function (myUniqueModule) {
+require(['myUniqueModule'], function (myUniqueModule) {
 
     // use myUniqueModule
 
